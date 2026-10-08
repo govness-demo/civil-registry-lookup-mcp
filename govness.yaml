@@ -1,0 +1,19 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "ke-digital-public-services.civil-registry-lookup-mcp"
+name: "Civil registry lookup MCP server"
+type: "mcp"
+version: "2.1.0"
+summary: "MCP server that verifies birth and business registration numbers against the national registries."
+description: "Read-only verification: the server answers yes, no or not found for a registration number, never returning personal data beyond what the caller already holds."
+publisher:
+  environment: "ke-digital-public-services"
+  body: "Directorate of Digital Public Services"
+languages: ["en"]
+license: "MIT"
+interfaces:
+  protocol: "mcp"
+  tools: ["verify_birth_registration", "verify_business_registration", "registry_status"]
+links:
+  repo: "https://github.com/govness-demo/civil-registry-lookup-mcp"
+domains: ["identity-and-civil-registration"]
