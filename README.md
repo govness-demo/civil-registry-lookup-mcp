@@ -1,4 +1,4 @@
-> **Fictional demo repository.** This repository belongs to the [govness.ai demo](https://govness-demo.vercel.app/blocks/civil-registry-lookup-mcp). The institution, people and work described here are invented for demonstration; it is not a real government project and contains no working code.
+> **Fictional demo repository.** This repository belongs to the [Agentic Blocks demo](https://govness-demo.vercel.app/blocks/civil-registry-lookup-mcp). The institution, people and work described here are invented for demonstration; it is not a real government project and contains no working code.
 
 # Civil registry lookup MCP server
 
